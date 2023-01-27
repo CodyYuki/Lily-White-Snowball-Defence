@@ -1,6 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-	//grv = (-1*global.snowspeed);
-	
-grav = 0.03;
+
+
+
+if (global.playerHp > 0)
+{
+x = 7000;
+}
+
+if (global.playerHp <= 0)
+{
+x = 678;
+}

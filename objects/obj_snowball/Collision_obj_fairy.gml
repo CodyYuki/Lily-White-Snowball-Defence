@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-	//grv = (-1*global.snowspeed);
-	
-grav = 0.03;
+other.hp --;
+other.image_index = 1;
+instance_destroy(self);
+
+
+
