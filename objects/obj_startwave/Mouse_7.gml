@@ -3,5 +3,5 @@
 
 obj_wavespawner.wave++;
 obj_wavespawner.wavestart = true;
-
+global.menu = 1;
 

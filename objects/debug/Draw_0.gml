@@ -14,3 +14,4 @@ draw_text(x, y+100, "playerHp: " + string(global.playerHp));
 draw_text(x, y+120, "enemiesdead: " + string(global.enemiesdead));
 draw_text(x, y+140, "wallHp: " + string(global.wallHp));
 draw_text(x, y+160, "buildingtime: " + string(obj_snowwall.buildingtime));
+draw_text(x, y+180, "global.menuActive: " + string(global.menuActive));

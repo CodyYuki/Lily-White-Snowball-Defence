@@ -3,6 +3,6 @@
 
 fairy = instance_create_depth(x,y + random_range(20, 600),-1,obj_fairy);
 wavestart = false;
-
+enemies--;
 
 
