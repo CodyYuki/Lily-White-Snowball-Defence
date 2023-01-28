@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-buildingtime = buildingtime + global.buildinglevel;
+buildingtime = buildingtime + 1;
 
 
 

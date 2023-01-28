@@ -8,7 +8,7 @@ if (global.currentlyInWave == true)
 }
 
 
-if (global.currentlyInWave == false)
+if (global.currentlyInWave == false) && (global.menuActive == false)
 {
 	x = 672;
 }

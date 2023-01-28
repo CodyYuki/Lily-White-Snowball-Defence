@@ -4,5 +4,5 @@
 global.wallHp = 5;
 global.maxWallHp = 5;
 buildingtime = 0;
-global.buildinglevel = 1;
+global.buildinglevel = 200;
 
