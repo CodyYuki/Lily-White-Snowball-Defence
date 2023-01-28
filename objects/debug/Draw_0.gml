@@ -11,5 +11,9 @@ draw_text(x, y+80, "wallHp: " + string(global.wallHp));
 draw_text(x, y+100, "MaxwallHp: " + string(global.maxWallHp));
 draw_text(x, y+120, "buildingtime: " + string(obj_snowwall.buildingtime));
 draw_text(x, y+140, "snowball speed: " + string(global.snowspeed));
+draw_text(x, y+160, "Money: " + string(global.cash));
+draw_text(x, y+180, "cooldown: " + string(obj_white.cooldown));
 
+draw_text(x, y-20,"enemytime" + string(obj_wavespawner.enemytime));
+draw_text(x, y-40,"spawnEnemy" + string(obj_wavespawner.spawnEnemy));
 

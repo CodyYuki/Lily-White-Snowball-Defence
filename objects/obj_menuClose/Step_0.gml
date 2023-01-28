@@ -12,7 +12,7 @@ if ((global.menuActive == false) && (y >= -580))
 
 if ((global.currentlyInWave == false) && (global.menuActive == true))
 {
-	if (y <= 120)
+	if (y <= 160)
 	{
 		y = y + 20;
 	}

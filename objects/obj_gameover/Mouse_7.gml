@@ -9,3 +9,4 @@ instance_destroy(obj_snowballenemy);
 global.playerHp = 10;
 global.wallHp = 5;
 global.maxWallHp = 5;
+game_restart();

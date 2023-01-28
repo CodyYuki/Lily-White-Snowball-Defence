@@ -4,4 +4,4 @@
 hp = 2;
 
 
-moveTime = random_range(50, 225);
+moveTime = random_range(100, 425);

@@ -6,4 +6,4 @@ snowball.direction = point_direction(x, y, obj_white.x, obj_white.y);
 snowball.speed = 10;
 
 
-alarm[0] = 4 * 60;
+alarm[0] = 8 * 60;

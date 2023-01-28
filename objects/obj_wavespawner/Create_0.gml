@@ -4,7 +4,8 @@
 global.currentlyInWave = false;
 wave = 0;
 
-enemies = 0;
+enemies = 4;
 global.enemiesdead = 0;
 wavestart = false;
-
+enemytime = 200;
+spawnEnemy = 60;

@@ -2,11 +2,15 @@
 // You can write your code in this editor
 
 
-
-
-global.playerHp = global.playerHp +  5;
-
-if (global.playerHp >= 50)
+if (global.cash >= price)
 {
-	global.playerHp = 50;
+	global.cash = global.cash - 5;
+	global.playerHp = global.playerHp +  5;
+
+	if (global.playerHp >= 50)
+	{
+		global.playerHp = 50;
+	}
+	price = price + 4;
+
 }
