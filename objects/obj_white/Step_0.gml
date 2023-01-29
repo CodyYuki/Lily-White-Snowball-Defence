@@ -4,10 +4,24 @@ xmouse = mouse_x;
 ymouse = mouse_y;
 image_speed = 0;
 
-if ((mouse_check_button_released(mb_left)) & (cooldown <= 0))
+if (xmouse < 683)
+{
+	xmouse = 683;
+}
+
+if (global.playerHp <= 0)
+{
+	room_goto(rm_gameover);
+}
+
+if ((mouse_check_button_pressed(mb_left)) & (cooldown <= 0))
 {
 	snowball = instance_create_depth(x,y,-1,obj_snowball);
 	snowball.direction = point_direction(x, y, xmouse, ymouse);
+	snowball.goalx = xmouse;
+	snowball.goaly = ymouse;
+	snowball.startx = x;
+	snowball.direction += 25;
 	snowball.speed = global.snowspeed;
 	cooldown = maxcooldown;
 

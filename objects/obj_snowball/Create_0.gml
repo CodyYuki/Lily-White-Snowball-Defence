@@ -4,3 +4,4 @@
 	//grv = (-1*global.snowspeed);
 	
 grav = 0.03;
+canCollide = false;

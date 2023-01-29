@@ -3,7 +3,7 @@
 
 if (global.buildinglevel <= 25)
 {
-	global.buildinglevel = 20
+	global.buildinglevel = 30
 }
 
 
@@ -33,6 +33,6 @@ if (global.wallHp <= 0)
 
 if (buildingtime >= global.buildinglevel)
 {
-	global.wallHp++;
 	buildingtime = 0;
+	global.wallHp++;
 }
